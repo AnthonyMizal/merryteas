@@ -81,6 +81,16 @@ body::-webkit-scrollbar {
     animation-name: rubberBand;
   }
 
+  @media (max-width: 450px) {
+    .userlogin_merryteastext h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 400px) {
+    .userlogin_merryteastext h1{
+        font-size: 40px;
+    }
+}
   @-webkit-keyframes rubberBand {
     from {
       -webkit-transform: scale3d(1, 1, 1);

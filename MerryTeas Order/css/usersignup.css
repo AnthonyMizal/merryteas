@@ -111,3 +111,22 @@ body::-webkit-scrollbar {
         display: none;
     }
 }
+@media (max-width: 725px) {
+    .card{
+        margin-left: -63px;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+    }
+}
+@media (max-width: 380px) {
+    .card{
+        margin-left: -63px;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+    }
+    .userlogin_merryteastext h1{
+        font-size: 40px;
+    }
+}

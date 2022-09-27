@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;500;600;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+body{
+    background-color: #F0F0EA;
+}
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+.row label{
+    font-weight: 600;
+}
+.usersignup_gender h6 {
+    font-weight: 600;
+}
+.row input{
+    font-size: 15px;
+    font-weight: 500;
+}
+.row select{
+    font-size: 15px;
+    font-family: 'FontAwesome', 'Barlow';
+}
+.usersignup_streetname{
+    width: 100%;
+}
+.fa {
+    margin-left: 5px;
+}
+.form-control{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-radius: 0%;
+}
+.userlogin_merryteastext h1{
+    font-size: 63px;
+    font-weight: 900;
+    margin: 0;
+}
+.userlogin_merryteastext h6{
+    font-weight: 900;
+    margin: 0;
+}
+.userlogin_merryteastext2{
+    font-weight: 900;
+    color: #EEA753;
+}
+.userlogin_merryteastext2 span{
+    font-weight: 900;
+    color: #1F2C41;
+}
+.usersignup_signupbutton{
+    width: 270px;
+    font-weight: 900;
+    height: 45px;
+    background-color: #F7BD77;
+    border-radius: 30px;
+    border: none;
+    color: #1F2C41;
+}
+
+.image_row {
+    width: 100%;
+    border: 2px solid red
+}
+
+.userlogin_logo{
+    align-items: center;
+    justify-content: center;
+}
+.image_class{
+    width: 50%;
+}
+.image_class img{
+    width: 70%;
+    padding: 0;
+    margin: 0 auto;
+    margin: 0 120px;
+}
+.signup_class{
+    width: 40%;
+    align-items: center;
+}
+.center_row {
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0;
+}
+
+@media (max-width: 1600px) {
+    .image_class img{
+        width: 70%;
+        padding: 0;
+        margin: 0 120px;
+    }
+}
+@media (max-width: 1200px) {
+    .center_row {
+        display: flex;
+        flex-direction: column;
+    }
+    .signup_class{
+        width: 60%;
+        align-items: center;
+    }
+    .big_image{
+        display: none;
+    }
+}

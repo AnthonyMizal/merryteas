@@ -127,6 +127,28 @@ body::-webkit-scrollbar {
         width: 400px;
     }
 }
+@media (max-width: 450px) {
+    .card{
+        margin-left: -63px;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+    }
+    .userlogin_merryteastext h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 400px) {
+    .card{
+        margin-left: -54px;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+    }
+    .userlogin_merryteastext h1{
+        font-size: 40px;
+    }
+}
 @media (max-width: 380px) {
     .card{
         margin-left: -63px;

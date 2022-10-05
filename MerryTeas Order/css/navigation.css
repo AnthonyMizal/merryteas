@@ -22,12 +22,11 @@ header{
 .header_title{
     display: flex;
     width: 20%;
+    align-items: center;
     text-decoration: none;
 }
 
 .header_title h3{
-    height: 100%;
-    margin: 7% 0;
     margin-left: 15px;
     font-size: 28px;
     color: #1f2c41;
@@ -58,7 +57,7 @@ header{
 
 .navigation_tabs a:hover{
     color: transparent;
-    text-shadow: 3px 2px 0px #858585;
+    text-shadow: 3px 2px 0px white;
 }
 
 .navigation_tabs .current_tab{
